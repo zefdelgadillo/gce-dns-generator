@@ -1,6 +1,6 @@
 variable "project_id" {
   type        = string
-  description = "Google Cloud Project to crate Cloud Function and other resources"
+  description = "Google Cloud Project for Cloud Function and other resources"
 }
 variable "region" {
   type        = string
@@ -13,7 +13,7 @@ variable "folder_id" {
 }
 variable "cloud_dns_project_id" {
   type        = string
-  description = "Project where Cloud DNS is configured"
+  description = "Google Cloud Project where Cloud DNS is configured"
 }
 variable "cloud_dns_zone" {
   type        = string
