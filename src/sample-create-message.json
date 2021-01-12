@@ -1,0 +1,32 @@
+{
+  "insertId": "j5g3c0e1pfoc",
+  "logName": "projects/service-project-dev-b98r/logs/cloudaudit.googleapis.com%2Factivity",
+  "operation": {
+    "id": "operation-1610140466434-5b86a0a8a5170-78054747-61910685",
+    "last": true,
+    "producer": "compute.googleapis.com"
+  },
+  "protoPayload": {
+    "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+    "authenticationInfo": { "principalEmail": "zef@google.com" },
+    "methodName": "beta.compute.instances.insert",
+    "request": { "@type": "type.googleapis.com/compute.instances.insert" },
+    "requestMetadata": {
+      "callerIp": "2603:7000:8a02:d5c0:e4c2:6b7:3b85:245",
+      "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36,gzip(gfe),gzip(gfe)"
+    },
+    "resourceName": "projects/service-project-dev-b98r/zones/us-central1-a/instances/instance-4",
+    "serviceName": "compute.googleapis.com"
+  },
+  "receiveTimestamp": "2021-01-08T21:15:01.20875118Z",
+  "resource": {
+    "labels": {
+      "instance_id": "3044555404652934621",
+      "project_id": "service-project-dev-b98r",
+      "zone": "us-central1-a"
+    },
+    "type": "gce_instance"
+  },
+  "severity": "NOTICE",
+  "timestamp": "2021-01-08T21:15:00.541339Z"
+}
